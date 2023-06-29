@@ -1,0 +1,7 @@
+https://example.com/schedule/index.html
+https://example.com/resources/index.html
+https://example.com/about/index.html
+https://example.com/tags/index.html
+https://example.com/categories/index.html
+https://example.com/2023/06/29/hello-world/
+https://example.com/
