@@ -6,7 +6,7 @@
   <link href="https://example.com/atom.xml" rel="self"/>
   
   <link href="https://example.com/"/>
-  <updated>2023-06-29T13:40:26.372Z</updated>
+  <updated>2023-06-30T17:13:00.000Z</updated>
   <id>https://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一篇博客</title>
+    <link href="https://example.com/2023/07/01/first-blog/"/>
+    <id>https://example.com/2023/07/01/first-blog/</id>
+    <published>2023-06-30T16:47:58.000Z</published>
+    <updated>2023-06-30T17:13:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://pica.zhimg.com/80/v2-1ae1a9e9fe58cba29bc2159cba3bd988_720w.webp"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://pica.zhimg.com/80/v2-1ae1a9e9fe58cba29bc2159cba3bd988_720w.webp&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://example.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

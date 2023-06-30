@@ -1,3 +1,4 @@
+https://example.com/2023/07/01/first-blog/
 https://example.com/schedule/index.html
 https://example.com/resources/index.html
 https://example.com/about/index.html
@@ -5,3 +6,4 @@ https://example.com/tags/index.html
 https://example.com/categories/index.html
 https://example.com/2023/06/29/hello-world/
 https://example.com/
+https://example.com/categories/%E7%94%9F%E6%B4%BB/
