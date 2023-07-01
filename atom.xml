@@ -3,11 +3,11 @@
   <title>闲庭品趣</title>
   
   
-  <link href="https://example.com/atom.xml" rel="self"/>
+  <link href="https://lovefamily-ren-wang.com/atom.xml" rel="self"/>
   
-  <link href="https://example.com/"/>
-  <updated>2023-07-01T08:51:35.256Z</updated>
-  <id>https://example.com/</id>
+  <link href="https://lovefamily-ren-wang.com/"/>
+  <updated>2023-07-01T09:18:27.817Z</updated>
+  <id>https://lovefamily-ren-wang.com/</id>
   
   <author>
     <name>Dingchao Ren</name>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>深度学习-深度前馈网络</title>
-    <link href="https://example.com/2023/07/01/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C/"/>
-    <id>https://example.com/2023/07/01/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C/</id>
+    <link href="https://lovefamily-ren-wang.com/2023/07/01/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C/"/>
+    <id>https://lovefamily-ren-wang.com/2023/07/01/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C/</id>
     <published>2023-07-01T06:30:25.000Z</published>
-    <updated>2023-07-01T08:51:35.256Z</updated>
+    <updated>2023-07-01T09:18:27.817Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>随着alpha-go和Chatgpt的出现，人工智能（Artificial Intelligence，AI）展现出令人惊叹的发展前景，作为一个科技工作者（新时代民工），应该对其要有所了解的。深度学习作为人工智能领域一个非常重要的课题，自然是不能错过的。</p><p>笔者之前也对深度学习了解较少，但工作上遇到了一些问题，发现用深度学习的一些方法可以很好的解决，所以想工作之余系统性的学习一下。<a href="https://www.deeplearningbook.org/">《Deep Learning》，I. Goodfellow, Y. Bengio and A. Courville</a>作为深度学习领域非常著名的一本书，虽然已经有些过时，但确实打基础的一本好书。笔者会从中挑选一些章节阅读并分享。</p><h1 id="深度前馈网络"><a href="#深度前馈网络" class="headerlink" title="深度前馈网络"></a>深度前馈网络</h1><p>绝大多数深度学习问题都可以总结为，给定一个输入 $x$，我们设计网络可以输出预期的 $y$。也就是说，我们期望可以学习到这个未知的映射 $f^*:x \rightarrow y&#x3D;f^*(x)$。深度前馈网络（deep feedforward network），也叫作前馈神经网络（feedforward neural network）或者多层感知机（multilayer perceptron, MLP），是典型的深度学习中近似映射的方法。前馈网络定义了一个映射 $y&#x3D;f(x,\theta)$，其中$\theta$为网络参数。</p><p>这里需要提一下，之所以称为前馈网络，是因为信息流从输入经过中间计算过程再到输出端，在模型的输出和模型本身之间没有反馈连接，当前馈神经网络被扩展成包含反馈连接时，它们被称为循环神经网络（recurrent neural network, RNN）。</p><p><img src="/2023/07/01/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C/feedforward_NN.png" alt="前馈网络"></p><p>前馈网络的结果如上图所示。主要是由输出神经元，隐藏神经元，输出神经元。神经元之间的连线代表了信息传递的权重，每个隐藏神经元包含一个激活函数。显然神经网络隐藏层越多，深度越深，每个隐藏层的隐藏神经元越多，则宽度越大。</p><p>说完了基本的结构，其实对于深度前馈网络已经有个大概的了解了，但是对于深度学习这门课，动手实验要比看理论要更能学到东西，特别是调参的经验（也就是大家所调侃的炼丹经验）</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>随着alpha-go和Chatgpt的出现，人工智能（Artificial Intelligence，AI）展现出令人惊叹的发展前景，作为一个科技工作者（新时代民工），应该对其要有所了解的。深度学习作为人工智能领域一个非常重要的课题，自然是不能错过的。</p><p>笔者之前也对深度学习了解较少，但工作上遇到了一些问题，发现用深度学习的一些方法可以很好的解决，所以想工作之余系统性的学习一下。<a href="https://www.deeplearningbook.org/">《Deep Learning》，I. Goodfellow, Y. Bengio and A. Courville</a>作为深度学习领域非常著名的一本书，虽然已经有些过时，但确实打基础的一本好书。笔者会从中挑选一些章节阅读并分享。</p><h1 id="深度前馈网络"><a href="#深度前馈网络" class="headerlink" title="深度前馈网络"></a>深度前馈网络</h1><p>绝大多数深度学习问题都可以总结为，给定一个输入 $x$，我们设计网络可以输出预期的 $y$。也就是说，我们期望可以学习到这个未知的映射 $f^*:x \rightarrow y&#x3D;f^*(x)$。深度前馈网络（deep feedforward network），也叫作前馈神经网络（feedforward neural network）或者多层感知机（multilayer perceptron, MLP），是典型的深度学习中近似映射的方法。前馈网络定义了一个映射 $y&#x3D;f(x,\theta)$，其中$\theta$为网络参数。</p><p>这里需要提一下，之所以称为前馈网络，是因为信息流从输入经过中间计算过程再到输出端，在模型的输出和模型本身之间没有反馈连接，当前馈神经网络被扩展成包含反馈连接时，它们被称为循环神经网络（recurrent neural network, RNN）。</p><p><img src="/2023/07/01/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C/feedforward_NN.png" alt="前馈网络"></p><p>前馈网络的结果如上图所示。主要是由输出神经元，隐藏神经元，输出神经元。神经元之间的连线代表了信息传递的权重，每个隐藏神经元包含一个激活函数。显然神经网络隐藏层越多，深度越深，每个隐藏层的隐藏神经元越多，则宽度越大。</p><p>说完了基本的结构，其实对于深度前馈网络已经有个大概的了解了，但是对于深度学习这门课，动手实验要比看理论要更能学到东西，特别是调参的经验（也就是大家所调侃的炼丹经验）。</p><h1 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h1>]]></content>
     
     
       
@@ -33,10 +33,10 @@
     
     
     
-    <category term="深度学习" scheme="https://example.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    <category term="深度学习" scheme="https://lovefamily-ren-wang.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="MLP" scheme="https://example.com/tags/MLP/"/>
+    <category term="MLP" scheme="https://lovefamily-ren-wang.com/tags/MLP/"/>
     
   </entry>
   
