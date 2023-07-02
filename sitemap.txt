@@ -6,7 +6,7 @@ https://lovefamily-ren-wang.com/about/index.html
 https://lovefamily-ren-wang.com/tags/index.html
 https://lovefamily-ren-wang.com/categories/index.html
 https://lovefamily-ren-wang.com/
-https://lovefamily-ren-wang.com/tags/MLP/
 https://lovefamily-ren-wang.com/tags/CUDA/
-https://lovefamily-ren-wang.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/
+https://lovefamily-ren-wang.com/tags/MLP/
 https://lovefamily-ren-wang.com/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/
+https://lovefamily-ren-wang.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/
