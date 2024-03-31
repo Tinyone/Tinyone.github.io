@@ -6,7 +6,7 @@
   <link href="https://lovefamily-ren-wang.com/atom.xml" rel="self"/>
   
   <link href="https://lovefamily-ren-wang.com/"/>
-  <updated>2024-03-31T13:03:19.434Z</updated>
+  <updated>2024-03-31T13:33:49.266Z</updated>
   <id>https://lovefamily-ren-wang.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://lovefamily-ren-wang.com/2024/03/31/Transformer/"/>
     <id>https://lovefamily-ren-wang.com/2024/03/31/Transformer/</id>
     <published>2024-03-31T12:13:24.000Z</published>
-    <updated>2024-03-31T13:03:19.434Z</updated>
+    <updated>2024-03-31T13:33:49.266Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Transformer"><a href="#Transformer" class="headerlink" title="Transformer"></a>Transformer</h1><p>自从 2017 年 Google 发布一篇名为《Attention is all you need》的论文，基于transformer的网络模型便层出不穷，特别是以 Bert 和 GPT 为代表的一些语言模型实现了在多种NLP领域任务上超前的性能 ，更是将transformer的热度带向的顶峰。</p><p>2023年，openAI推出的基于GPT4的ChatGPT，其在多个领域都展现出高水平的智能，更是让人们相信基于Transformer这条路可以实现强人工智能。</p><p><img src="/2024/03/31/Transformer/Transformer-arch.png"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Transformer"><a href="#Transformer" class="headerlink" title="Transformer"></a>Transformer</h1><p>自从 2017 年 Google 发布一篇名为《Attention is all you need》的论文，基于transformer的网络模型便层出不穷，特别是以 Bert 和 GPT 为代表的一些语言模型实现了在多种NLP领域任务上超前的性能 ，更是将transformer的热度带向的顶峰。</p><p>2023年，openAI推出的基于GPT4的ChatGPT，其在多个领域都展现出高水平的智能，更是让人们相信基于Transformer这条路可以实现强人工智能。</p><h1 id="Transformer-结构"><a href="#Transformer-结构" class="headerlink" title="Transformer 结构"></a>Transformer 结构</h1><p><img src="/2024/03/31/Transformer/Transformer-arch.png"></p><p>Transformer主要是由Encoder和Decoder组成，这两部分的结构很相似，主要构成成分是注意力层（Attention Layer）。本文主要是对Transformer这一结构做出一定介绍，网上其实已经有很多介绍了，但很多时候并不是很全面和清晰，笔者在学习的时候发现想找一个全面介绍并不是很容易。</p><h2 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h2><p>对于LLM（large language model）其本质的输入是一段文本，然后输出也是一段文本，我们的目的就是学习一个文本到文本的映射$\textbf{Y} &#x3D; f(\textbf{X})$。当然对于计算机来说，它并不能直接处理文字信息，于是我们需要对输入文本进行转换，即把输入文本变成数字（其实是变成一系列词向量），这一过程分为两个步骤：1. 分词，2. 词嵌入。</p><h3 id="分词（Tokenize）和分词器（Tokenizer）"><a href="#分词（Tokenize）和分词器（Tokenizer）" class="headerlink" title="分词（Tokenize）和分词器（Tokenizer）"></a>分词（Tokenize）和分词器（Tokenizer）</h3><p>分词顾名思义就是将一段文本切分成一个一个“词语”，这里一个一个“词语”就叫做Token（也可以翻译为词元）。对于我们人来说分词似乎是一个自然的过程，比如：“I like eating ice cream.”，一个自然的分词结果就是【’I’, ‘ ‘, ‘like’, ‘ ‘, ‘eating’, ‘ ‘, ‘ice’, ‘ ‘, ‘cream’, ‘.’】</p>]]></content>
     
     
       
