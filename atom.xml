@@ -6,7 +6,7 @@
   <link href="https://lovefamily-ren-wang.com/atom.xml" rel="self"/>
   
   <link href="https://lovefamily-ren-wang.com/"/>
-  <updated>2024-05-15T14:30:20.823Z</updated>
+  <updated>2024-05-15T16:15:00.492Z</updated>
   <id>https://lovefamily-ren-wang.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MHA, MQA, GQA</title>
+    <link href="https://lovefamily-ren-wang.com/2024/05/15/MHA-MQA-GQA/"/>
+    <id>https://lovefamily-ren-wang.com/2024/05/15/MHA-MQA-GQA/</id>
+    <published>2024-05-15T15:59:33.000Z</published>
+    <updated>2024-05-15T16:15:00.492Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="MHA-Multi-Head-Attention"><a href="#MHA-Multi-Head-Attention" class="headerlink" title="MHA (Multi-Head Attention)"></a>MHA (Multi-Head Attention)</h1><p>我们知道多头注意力机制（MHA）是Transformer中一个非常重要的部分。相比与单头注意力机制，MHA将query，key，value分别映射到不同的子空间，从而每个头可以从不同的角度来学习特性，增加网络的表征能力。</p><p>这听起来很美好，但现实很残酷，由于大模型在推理时，是一个一个token进行推理输出的，所以当需要推理的文本很长时，那么推理计算的时间复杂度就会上升，为了降低时间复杂度，提升推理速度，我们有了KV-Cache技术。这是一种空间换时间的技巧，（后续有机会再详细掰扯）。KV-Cache确实可以提升推理速度，但是代价就是需要的显存变多了。为了降低显存，只能降低参数量，于是乎MQA（Multi-Query Attention）被提出来了。</p><h1 id="MQA（Multi-Query-Attention）"><a href="#MQA（Multi-Query-Attention）" class="headerlink" title="MQA（Multi-Query Attention）"></a>MQA（Multi-Query Attention）</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;MHA-Multi-Head-Attention&quot;&gt;&lt;a href=&quot;#MHA-Multi-Head-Attention&quot; class=&quot;headerlink&quot; title=&quot;MHA (Multi-Head Attention)&quot;&gt;&lt;/a&gt;MHA (Multi-H</summary>
+      
+    
+    
+    
+    
+    <category term="LLM" scheme="https://lovefamily-ren-wang.com/tags/LLM/"/>
+    
+  </entry>
   
   <entry>
     <title>MultiHeadAttention 代码实现</title>
