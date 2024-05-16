@@ -6,7 +6,7 @@
   <link href="https://lovefamily-ren-wang.com/atom.xml" rel="self"/>
   
   <link href="https://lovefamily-ren-wang.com/"/>
-  <updated>2024-05-15T16:45:54.649Z</updated>
+  <updated>2024-05-16T15:19:34.853Z</updated>
   <id>https://lovefamily-ren-wang.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>LLM 八股</title>
+    <link href="https://lovefamily-ren-wang.com/2024/05/16/LLM-%E5%85%AB%E8%82%A1/"/>
+    <id>https://lovefamily-ren-wang.com/2024/05/16/LLM-%E5%85%AB%E8%82%A1/</id>
+    <published>2024-05-16T15:10:22.000Z</published>
+    <updated>2024-05-16T15:19:34.853Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="LLM-面试题"><a href="#LLM-面试题" class="headerlink" title="LLM 面试题"></a>LLM 面试题</h2><p>简单记录一下面试过程中问到的八股文吧</p><ol><li><p>Decoder-only的LLM大模型中，FFN是什么样的结构？<br>答：一个2层的全连接网络，维度是先扩大4倍，再缩小为原来的1&#x2F;4。</p></li><li><p>为什么FFN网络是先做宽，再做窄？（这一题我也没回答好）<br>答：FFN通过增加中间层的维度，扩展了输入的表示空间。这种维度扩展有助于模型更好地学习输入序列的表示，从而提高了模型的性能。通常，FFN包括两个线性层，中间层的维度通常比输入向量的维度大，然后通过激活函数，最后再缩减回输入维度的维度。这个过程有助于模型更好地捕捉输入信息中的复杂性。</p></li></ol><p>先升维，将特征进行各种类型的特征组合，提高模型分辨能力；再降维，去除区分度低的组合特征。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;LLM-面试题&quot;&gt;&lt;a href=&quot;#LLM-面试题&quot; class=&quot;headerlink&quot; title=&quot;LLM 面试题&quot;&gt;&lt;/a&gt;LLM 面试题&lt;/h2&gt;&lt;p&gt;简单记录一下面试过程中问到的八股文吧&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Decoder-only的LL</summary>
+      
+    
+    
+    
+    
+    <category term="LLM" scheme="https://lovefamily-ren-wang.com/tags/LLM/"/>
+    
+  </entry>
   
   <entry>
     <title>MHA, MQA, GQA</title>
